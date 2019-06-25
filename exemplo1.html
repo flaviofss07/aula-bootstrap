@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Bem vindo ao Bootstrap</h1>
+    <div class="container">
+        <div class="row">
+             <!--Início do Formulário-->
+            <div class="col-6" style="background-color: red;">
+                <form action="" method="get">
+                    <h3>Formulário</h3>
+                    <fieldset>
+                        <legend>Cadastro de Contato</legend>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="fone">Telefone</label>
+                            <input type="tel" class="form-control" name="fone" id="fone">
+                        </div>
+                        <div class="form-group">
+                            <h3>Sexo</h3>
+                            <div class="form-check form-check-inline">
+                                <label for="masc" class="masc">
+                                    <input type="radio" name="sexo" id="masc">
+                                    Masculino
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label for="fem">
+                                    <input type="radio" name="sexo" id="fem">
+                                    Feminino
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label for="ndef">
+                                    <input type="radio" name="sexo" id="ndef">
+                                    Não definido
+                                </label>
+                                </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <!--Final do Formulário-->
+
+            <div class="col-6" style="background-color: rgb(21, 255, 0);">
+                <!--Início da Tabela-->
+                <h3>Tabela</h3>
+
+            </div>
+            <!--Final da Tabela-->
+        </div>
+    </div>
+</body>
+
+</html>
